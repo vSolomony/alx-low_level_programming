@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - Entry level
+ * Description: prints the alphabet in lowercase, followed by a new line
+ * Return: Always 0 (sucess)
+*/
+int main(void)
+{
+	char small;
+
+	for (small = 'a' ; ch <= 'z' ; small++)
+	{
+	putchar(small);
+	}
+	return (0);
+}
