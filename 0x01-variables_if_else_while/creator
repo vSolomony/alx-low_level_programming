@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "file name"
+read var
+echo "#include <stdio.h>" > ${var}
+chmod u+x ${var}
+vi ${var}
