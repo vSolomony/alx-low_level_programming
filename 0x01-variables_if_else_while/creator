@@ -2,5 +2,10 @@
 echo "file name"
 read var
 echo "#include <stdio.h>" > ${var}
+echo "/**" >> ${var}
+echo "* main - Entry level" >> ${var}
+echo "* Description: " >> ${var}
+echo "* return: Always 0 (sucess)" >> ${var}
+echo "*/" >> ${var}
 chmod u+x ${var}
 vi ${var}
