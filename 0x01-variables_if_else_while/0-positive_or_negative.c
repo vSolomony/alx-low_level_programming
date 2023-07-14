@@ -4,7 +4,7 @@
 /**
  * main - Entry level
  * Description: assign a random number to the variable
- * return: Always 0 (sucess)
+ * Return: 0 (sucess)
 */
 int main(void)
 {
