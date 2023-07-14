@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry level
- * Description: asd
+ * Description: This program will assign a random number to the variable
  * Return: 0 (sucess)
 */
 int main(void)
