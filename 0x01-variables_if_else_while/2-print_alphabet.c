@@ -8,7 +8,7 @@ int main(void)
 {
 	char small;
 
-	for (small = 'a' ; ch <= 'z' ; small++)
+	for (small = 'a' ; small <= 'z' ; small++)
 	{
 	putchar(small);
 	}
