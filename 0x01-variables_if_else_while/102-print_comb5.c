@@ -29,7 +29,7 @@ int main(void)
 			}
 			sd++;
 		}
-		fd++
+		fd++;
 	}
 	putchar('\n');
 
