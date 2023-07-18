@@ -8,6 +8,5 @@ int _abs(int dig)
 {
 	if (dig < 0)
 		dig = dig * (-1);
-	else
 		return (dig);
 }
