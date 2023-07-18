@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *print_sign - prints the sign of a number
  * @n: number of sign
@@ -8,11 +8,11 @@ int print_sign(int n)
 {
 	if (n > 0)
 		return (1);
-		_printchar('+');
+		_putchar('+');
 	if (n == 0)
 		return (0);
-		_printchar('0');
+		_putchar('0');
 	if (n < 0)
 		return (-1);
-		_printchar('-');
+		_putchar('-');
 }
