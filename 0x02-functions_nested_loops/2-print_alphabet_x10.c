@@ -6,12 +6,12 @@
 void print_alphabet_x10(void)
 {
 	int row;
-	int body;
+	int bo;
 
 	for (row = 1; row <= 10; row++)
 	{
-	for (body = 'a' ; body <= 'z' ; body++)
-		_putchar(body);
+	for (bo = 'a'; bo <= 'z'; bo++)
+		_putchar(bo);
 		_putchar('\n');
 	}
 }
