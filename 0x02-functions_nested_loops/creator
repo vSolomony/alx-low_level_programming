@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "file name"
+read var
+echo "#inculde <stdio.h>" > ${var}
+echo "/*" >> ${var}
+echo " *main - entry level" >> ${var}
+echo " *description: " >> ${var}
+echo " *Return: Alawys 0 \(true\)" >> ${var}
+echo "*/" >> ${var}
+chmod u+x ${var}
+vi ${var}
