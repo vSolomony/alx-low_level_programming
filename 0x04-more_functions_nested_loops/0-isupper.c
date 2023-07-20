@@ -1,12 +1,12 @@
 #include "main.h"
-/*
- * _isupper - Entry level
+/**
+ * _isupper - checking upper case
  * @c: variable
- * Description: upper and lower
+ * Return: 1 if its upper, 0 if not
 */
 int _isupper(int c)
 {
-	for (c = 'A'; c <= 'Z'; c++)
+	if (c >= 65 && c <= 90)
 		return (1);
 	return (0);
 }
