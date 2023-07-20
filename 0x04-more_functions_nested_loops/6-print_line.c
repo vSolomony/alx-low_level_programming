@@ -2,7 +2,6 @@ include "main.h"
 /**
  *print_line - function that draws line
  *@n: is variable
- *Return: Always 0 (sucess)
 */
 void print_line(int n)
 {
@@ -12,8 +11,8 @@ void print_line(int n)
 		_putchar('\n');
 	else
 	{
-	for (ch = 1; ch <= n; ch++)
-		_putchar('_');
-	_putchar('\n');
+		for (ch = 1; ch <= n; ch++)
+			_putchar('_');
+		_putchar('\n');
 	}
 }
