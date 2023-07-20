@@ -8,4 +8,5 @@
 int mul(int a, int b)
 {
 	sum = (a * b);
+	return (0);
 }
