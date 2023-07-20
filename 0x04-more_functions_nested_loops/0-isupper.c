@@ -1,7 +1,8 @@
 #include "main.h"
 /*
  * _isupper - Entry level
- * @c: Variable
+ * @c: variable
+ * Description: upper and lower
 */
 int _isupper(int c)
 {
