@@ -5,13 +5,13 @@ include "main.h"
 */
 void print_line(int n)
 {
-	int ch;
+	int jojo;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-		for (ch = 1; ch <= n; ch++)
+		for (jojo = 1; jojo <= n; jojo++)
 			_putchar('_');
 		_putchar('\n');
 	}
