@@ -15,7 +15,7 @@ void print_diagonal(int n)
 		for (jojo = 1; jojo <= n; jojo++)
 		{
 			for (space = 1; space <= jojo; space++)
-				putchar(' ');
+				_putchar(' ');
 			_putchar(92);
 			_putchar('\n');
 		}
