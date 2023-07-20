@@ -7,35 +7,31 @@
  * and for the multiples of five prints Buzz
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int nm;
+	int i;
 
-	for (nm = 1; nm <= 100; nm++)
+	for (i = 1; i <= 100; i++)
 	{
-	if (nm % 3 == 0 && nm % 5 == 0)
-	{
-		char a[15] = "FizzBuzz";
+		if (i % 3 == 0 && i % 5 != 0)
+		{
+			printf(" Fizz");
+		} else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf(" Buzz");
+		} else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf(" FizzBuzz");
+		} else if (i == 1)
+		{
+			printf("%d", i);
+		} else
+		{
+			printf(" %d", i);
+		}
+	}
+	printf("\n");
 
-		printf("%s ", a);
-		continue;
-	}
-	else if (nm % 3 == 0)
-	{
-		char b[15] = "fizz";
-
-		printf("%s ", b);
-		continue;
-	}
-	else if (nm % 5 == 0)
-	{
-	char z[15] =  "buzz";
-
-	printf("%s ", z);
-	continue;
-	}
-		printf("%d ", nm);
-	}
 	return (0);
 }
+
