@@ -6,14 +6,18 @@
 */
 void print_diagonal(int n)
 {
-	int jojo;
+	int jojo, space;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-	for (jojo = 1; jojo = n; jojo++)
-		_putchar(92);
-	_putchar('\n');
+		for (jojo = 1; jojo = n; jojo++)
+		{
+			for (space = 1; space <= jojo; space++)
+				putchar(' ');
+			_putchar(92);
+			_putchar('\n');
+		}
 	}
 }
