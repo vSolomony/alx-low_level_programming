@@ -4,7 +4,7 @@ include "main.h"
  *@n: is variable
  *Return: Always 0 (sucess)
 */
-int void print_line(int n)
+void print_line(int n)
 {
 	if (n <= 0)
 		_putchar('\n');
