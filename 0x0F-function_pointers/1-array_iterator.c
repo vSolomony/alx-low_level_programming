@@ -1,5 +1,6 @@
 #include "function_pointers.h"
 /**
+ * array_iterator - prints each array
  *@array: array of int
  *@size: size of
  *@action: function pointer
