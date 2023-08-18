@@ -13,8 +13,9 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(lss, n);
 	
 	for (i = 0; i < n; i++)
-		sum +=	va_arg(lss, unsigned int);
+		sum +=	va_arg(lss, int);
 
 	va_end(lss);
+
 	return (sum);
 }
