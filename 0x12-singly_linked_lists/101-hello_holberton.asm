@@ -5,4 +5,4 @@ main:
 	call	printf
 	mov	edi, msg
 section		.data
-	msg db 'Hello, Holeberton\n', 0
+	msg db 'Hello, Holberton\n', 0
