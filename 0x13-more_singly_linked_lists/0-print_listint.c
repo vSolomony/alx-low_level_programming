@@ -2,14 +2,11 @@
 /**
  * print_listint - printing and returning the list values
  * @h: the header of the list
- * Return: the number of values
+ * Return: the number of nodes
 */
 size_t print_listint(const listint_t *h)
 {
 	size_t count = 0;
-
-	if (h == NULL)
-		return (-1);
 
 	while (h != NULL)
 	{
