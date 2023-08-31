@@ -6,7 +6,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i, 
+	int i; 
 	unsigned long int curr_value;
 	int count = 0;
 
