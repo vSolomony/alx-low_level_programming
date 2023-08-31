@@ -7,10 +7,10 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decimal = 0;
+	int i;
 
 	if (b == 0)
 		return (0);
-	int i;
 
 	for (i = 0; b[i]; i++)
 	{
